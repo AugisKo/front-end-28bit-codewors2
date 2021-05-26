@@ -1,0 +1,23 @@
+{
+  "name": "front-end-28bit-codewors2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AugisKo/front-end-28bit-codewors2.git"
+  },
+  "keywords": [],
+  "author": "Eugenijus Komas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AugisKo/front-end-28bit-codewors2/issues"
+  },
+  "homepage": "https://github.com/AugisKo/front-end-28bit-codewors2#readme",
+  "devDependencies": {
+    "jest": "^27.0.1"
+  }
+}
