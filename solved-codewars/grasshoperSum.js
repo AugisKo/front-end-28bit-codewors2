@@ -1,9 +1,7 @@
 var summation = function (num) {
-  let step = 0;
   let total = 0;
   for (let i = 0; i <= num; i++) {
-    step += 1;
-    total += step;
+    total += i;
   }
   return total;
 };
