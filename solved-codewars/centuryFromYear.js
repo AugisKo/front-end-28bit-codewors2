@@ -1,11 +1,17 @@
 function century(year) {
   let a = year / 100;
   let b = Math.floor(a);
-  if ((a = b)) {
+  if (a === b) {
     return a;
   }
   console.log(b + 1);
   return b + 1;
+}
+
+// arba
+
+function century(year) {
+  return Math.ceil(year / 100);
 }
 
 test('test', () => {
@@ -13,7 +19,7 @@ test('test', () => {
   expect(century(1900)).toBe(19, 'Testing for year 1900');
   expect(century(1601)).toBe(17, 'Testing for year 1601');
   expect(century(2000)).toBe(20, 'Testing for year 2000');
-  expect(century(89)), toBe(1, 'Testing for year 89');
+  expect(century(89)).toBe(1, 'Testing for year 89');
 });
 
 /*
