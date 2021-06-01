@@ -1,15 +1,15 @@
 function between(a, b) {
   var str = [];
   for (let i = a; i <= b; i++) {
-    str.push += [i];
+    str.push(i);
   }
   //const ats = Array.from(String(str), Number);
   return str;
 }
 
 test('Basic tests', () => {
-  expect(between(1, 4)).toBe([1, 2, 3, 4]);
-  expect(between(-2, 2)).toBe([-2, -1, 0, 1, 2]);
+  expect(between(1, 4)).toStrictEqual([1, 2, 3, 4]);
+  expect(between(-2, 2)).toStrictEqual([-2, -1, 0, 1, 2]);
 });
 
 /*
